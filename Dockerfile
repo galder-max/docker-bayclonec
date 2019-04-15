@@ -26,5 +26,4 @@ WORKDIR /opt/bayclonec
  
 RUN g++ -o parseInputData_smc parseInputData_smc.cpp
  
-ENTRYPOINT ["/opt/bayclonec/run_bc.sh"]
 
